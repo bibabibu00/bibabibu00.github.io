@@ -1,31 +1,33 @@
 *{
 	box-sizing: border-box;
-}
-
-body{
-
-}
-
-header #logo{
-	width: 100%;
-	display: flex;
-	position: absolute;
-	margin: 400px;
+	padding: 0;
+	margin: 0;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 nav{
-
+	overflow: hidden;
+	background-color: aqua;
 }
 
-nav ul li{
+nav a{
+	float: right;
 	text-decoration: none;
-	text-align: right;
-	cursor: pointer;
-	position:relative ;
-	font-size: 1.2em;
-	display: block;
-	background-color: aqua;
-	margin: 0 auto;
-	padding: 5px ;
+	font-size: 1.4em;
+	color: orange;
+	align-items: center;
+	text-align: center;
+	list-style:none;
+	padding: 14px 16px;
+}
+
+nav a:hover{
+	background-color: blue;
+	color: aliceblue;
+}
+
+nav img{
+	padding: 5px;
+	width: 4%;
 }
 
