@@ -4,71 +4,26 @@
 	margin: 0;
 	font-family: 'Times New Roman', Times, serif;
 }
-
-nav{
-	overflow: hidden;
-	background-color: aqua;
-}
-
-nav a{
-	float: right;
-	text-decoration: none;
-	font-size: 1.4em;
-	color: black;
-	align-items: center;
-	text-align: center;
-	list-style:none;
-	padding: 14px 16px;
-	border-radius: 25px 25px;
-}
-
-nav a:hover{
-	background-color: blue;
-	color: aliceblue;
-}
-
-nav img{
-	padding: 5px;
-	width: 4%;
-}
-
-section{
-	margin: 10px 15px;
+.heading1 {
+	font-size: 1.5em;
 	position: absolute;
-	padding: 10px;
-	background-image: linear-gradient(180deg aqua,gray);
 }
 
-.heading1 h1{
-	font-size: 3.5em;
-
+.heading1 span {
+	color: red;
+	transition: 0.2s;
 }
 
-.heading1 h1 span{
+.heading1 #name {
+	overflow: hidden;
+	text-align:center;
 	color: red;
 }
 
-#name{
-	
-}
+/* Giới thiệu */
 
-section img{
-	margin: 10px 10px;
-	width: 25%;
-	border-radius: 25px 25px;
-}
-
-section h1.content{
-	font-size: 3em;
-	position: relative;
-	float: right;
-}
-
-section p{
-	font-size: 1.2em;
-	display: block;
-	position: relative;
-}
-section p span{
-	color: blueviolet;
+img {
+	width: 150px;
+	border-radius: 25px;
+	margin: ;
 }
