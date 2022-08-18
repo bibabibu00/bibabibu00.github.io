@@ -7,6 +7,8 @@
 .heading1 {
 	font-size: 1.5em;
 	position: absolute;
+	top: 50px;
+	left: auto;
 }
 
 .heading1 span {
@@ -41,4 +43,27 @@ img {
 .content {
 	font-size: 1.1em;
 	padding: 10px 10px;
+}
+
+.info {
+	font-size: 1.2em;
+	padding-left: 10px ;
+}
+
+.info a{
+	position: absolute;
+	left: 100px;
+	top: 100px;
+}
+
+.info .con1{
+	position: absolute;
+	left: 5px;
+	top: 30px;
+}
+
+.info .con2{
+	position: absolute;
+
+	top: 170px;
 }
