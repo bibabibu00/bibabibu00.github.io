@@ -11,7 +11,7 @@
 
 .heading1 span {
 	color: red;
-	transition: 0.2s;
+	transition: linear 2s;
 }
 
 .heading1 #name {
@@ -25,5 +25,20 @@
 img {
 	width: 150px;
 	border-radius: 25px;
-	margin: ;
+	margin: 100px 100px auto;
+}
+
+.name {
+	text-align: center;
+}
+
+.name h1 {
+	font-size: 2.5em;
+	color: red;
+	display: block;
+}
+
+.content {
+	font-size: 1.1em;
+	padding: 10px 10px;
 }
