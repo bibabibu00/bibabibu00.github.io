@@ -17,7 +17,7 @@
             <li class="logo">
             An Khanh
             </li>
-            <li class="items">
+            <li class="items active">
                <a href="./index.html">Home</a>
             </li>
             <li class="items">
@@ -34,4 +34,13 @@
       <div class="content"></div>
    </section>
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script type="text/javascript">
+   $(document).ready(function(){
+      $('li').on('click', function(){
+         $(this).siblings().removeClass('active');
+         $(this).addClass('active');
+      })
+   })
+</script>
 </html>
