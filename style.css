@@ -69,6 +69,19 @@ nav ul li.btn.show i:before {
    content: '\f00d';
 }
 
+ul li:nth-child(2).active
+{
+   padding: 2px;
+   border-bottom: 2px solid red;
+   opacity: 1;
+}
+ul li:nth-child(3).active
+{
+   padding: 2px;
+   border-bottom: 2px solid red;
+   opacity: 1;
+}
+
 /* ========================== */
 div {
    display: block;
