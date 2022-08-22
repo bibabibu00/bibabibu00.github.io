@@ -19,7 +19,7 @@
             <li class="items">
                <a href="./index.html">Home</a>
             </li>
-            <li class="items">
+            <li class="items active">
                <a href="./aboutme.html">About me</a>
             </li>
             <li class="btn"><a href="#"><i class="fa fa-bars"></i></a></li>
@@ -28,8 +28,18 @@
    </header>
    <section>
       <div class="title">
-         <h1>About me</h1>
+         <h1>Hey, wellcome to An Khanh</h1>
       </div>
+      <div class="content"></div>
    </section>
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script type="text/javascript">
+   $(document).ready(function(){
+      $('li').on('click', function(){
+         $(this).siblings().removeClass('active');
+         $(this).addClass('active');
+      })
+   })
+</script>
 </html>
